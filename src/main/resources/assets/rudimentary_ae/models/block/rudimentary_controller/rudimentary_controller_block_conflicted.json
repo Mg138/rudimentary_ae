@@ -1,0 +1,7 @@
+{
+  "parent": "rudimentary_ae:block/rudimentary_controller/rudimentary_controller_block_lights",
+  "textures": {
+    "block": "rudimentary_ae:block/rudimentary_controller_powered",
+    "lights": "rudimentary_ae:block/rudimentary_controller_conflict"
+  }
+}

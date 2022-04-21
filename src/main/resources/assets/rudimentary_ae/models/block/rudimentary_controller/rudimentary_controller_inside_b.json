@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rudimentary_ae:block/rudimentary_controller_inside_b"
+  }
+}

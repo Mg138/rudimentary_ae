@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "rudimentary_ae:block/rudimentary_controller_column",
+    "end": "rudimentary_ae:block/rudimentary_controller"
+  }
+}

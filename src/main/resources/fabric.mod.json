@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "rudimentary_ae",
+  "version": "${version}",
+  "name": "Rudimentary AE",
+  "description": "Adds rudimentary parts of AE2 to make it more compatible for earlygame usages, and disables channel capability for Ad-hoc networks.",
+  "authors": [
+    "Madeline Sparkle"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Mg138/rudimentary_ae",
+    "issues": "https://github.com/Mg138/rudimentary_ae/issues",
+    "sources": "https://github.com/Mg138/rudimentary_ae"
+  },
+  "license": "MIT",
+  "icon": "assets/rudimentary_ae/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.mg138.rudimentary_ae.RudimentaryAE"
+      }
+    ]
+  },
+  "mixins": [
+    "rudimentary_ae.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.2+kotlin.1.6.20",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "ae2": "*"
+  }
+}

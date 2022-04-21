@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "io.github.mg138.rudimentary_ae.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AddRudimentaryAEUnlitQuadMixin",
+    "AddRudimentaryControllerCalcMixin",
+    "DisableAdHocChannelMixin",
+    "DisablePowerUsageMixin0",
+    "DisablePowerUsageMixin1",
+    "DisablePowerUsageMixin2",
+    "DisablePowerUsageMixin3"
+  ]
+}
