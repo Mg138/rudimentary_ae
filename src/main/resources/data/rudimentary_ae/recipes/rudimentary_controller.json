@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CSC",
+        "FRF",
+        "CSC"
+    ],
+    "key": {
+        "C": {
+            "tag": "c:copper_ingots"
+        },
+        "R": {
+            "tag": "c:redstone_dusts"
+        },
+        "S": {
+            "tag": "c:stones"
+        },
+        "F": {
+            "tag": "c:fluix"
+        }
+    },
+    "result": {
+        "item": "rudimentary_ae:rudimentary_controller",
+        "count": 1
+    }
+}

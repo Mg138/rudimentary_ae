@@ -34,7 +34,7 @@ dependencies {
     val fabricKotlinVersion: String by project
     modImplementation("net.fabricmc:fabric-language-kotlin:$fabricKotlinVersion")
 
-    modCompileOnly("appeng:appliedenergistics2-fabric:11.0.0-alpha.3")
+    modImplementation("appeng:appliedenergistics2-fabric:11.0.0-alpha.3")
 }
 
 tasks {
